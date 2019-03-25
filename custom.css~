@@ -1,6 +1,5 @@
 /* Custom Style WordPress*/
 
-/* Header Logo Brand */
 .site-header {
 	width: 1200px;
 	margin: 0 auto;

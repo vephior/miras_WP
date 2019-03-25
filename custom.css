@@ -74,3 +74,17 @@
 	margin: 0;
 	font-size: 14px;
 }
+
+.menu-toggle {
+	width: 60px;
+	height: 35px;
+	padding: 5px 5px;
+}
+
+.border-menu {
+	border-bottom: 1px solid #ccc;
+}
+
+.main-navigation li {
+	padding 5px 10px;	
+}

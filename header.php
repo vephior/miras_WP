@@ -27,20 +27,12 @@
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
 		<img src="<?php echo get_template_directory_uri(); ?>/images/atlantamedicare-logo.jpg">	
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
+		
+		<?php
 			$miras_description = get_bloginfo( 'description', 'display' );
 			if ( $miras_description || is_customize_preview() ) :
-				?>
+		?>
+	
 				<p class="site-description"><?php echo $miras_description; /* WPCS: xss ok. */ ?></p>
 			<?php endif; ?>
 		</div><!-- .site-branding -->

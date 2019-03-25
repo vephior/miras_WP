@@ -53,3 +53,24 @@
 	margin: 0;
 	font-size: 14px;
 }
+
+.site-location {
+	width: 20%;
+	float: left;
+	margin-top: 20px;
+}
+
+.site-location .site-location-icon {
+	width: 20%;
+	float: left;
+}
+
+.site-location .site-location-content {
+	width: 80%;
+	float: left;
+}
+
+.site-location .site-location-content p {
+	margin: 0;
+	font-size: 14px;
+}
